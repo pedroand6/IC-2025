@@ -1,0 +1,7 @@
+bagpipes
+numpy
+pandas
+matplotlib
+astropy
+astroML
+ipykernel
