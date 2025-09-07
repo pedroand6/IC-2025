@@ -24,10 +24,10 @@ filter_list_splus = ['filters/uJAVA.dat',
                      'filters/zSDSS.dat']
 
 
-mags = ["u_petro", "J0378_petro", "J0395_petro", "J0410_petro", "J0430_petro", "g_petro", "J0515_petro", "r_petro",
-        "J0660_petro", "i_petro", "J0861_petro", "z_petro"]
-mags_err = ["e_u_petro", "e_J0378_petro", "e_J0395_petro", "e_J0410_petro", "e_J0430_petro", "e_g_petro",
-            "e_J0515_petro","e_r_petro", "e_J0660_petro","e_i_petro", "e_J0861_petro", "e_z_petro"]
+mags = ["u_aper_3", "J0378_aper_3", "J0395_aper_3", "J0410_aper_3", "J0430_aper_3", "g_aper_3", "J0515_aper_3", "r_aper_3",
+        "J0660_aper_3", "i_aper_3", "J0861_aper_3", "z_aper_3"]
+mags_err = ["e_u_aper_3", "e_J0378_aper_3", "e_J0395_aper_3", "e_J0410_aper_3", "e_J0430_aper_3", "e_g_aper_3",
+            "e_J0515_aper_3","e_r_aper_3", "e_J0660_aper_3","e_i_aper_3", "e_J0861_aper_3", "e_z_aper_3"]
 #####################################################################################################################
 # Dicionários de parâmetros fixos e livres, nessa parte existe uma boa flexibilidade do fitting.
 # Segue o link da documentação do BAGPIPES, com alguns exemplos de como usar:
@@ -57,7 +57,7 @@ fit_instructions["exponential"] = delayed
 fit_instructions["dust"] = dust
 fit_instructions["nebular"] = nebular
 #fit_instructions["veldisp"] = (0.,400.)
-df = pd.read_csv('galaxies_idr4.csv')
+df = pd.read_csv('galaxies_splus_aper3_idr4_10sources.csv')
 
 #Função load data necessária para o fit. Ela pega a fotometria do ID que é passado e transforma para fluxo em mJy,
 # assim como a incerteza. A conta do fluxo fui eu quem fez, espero estar certa. Se não estiver, por favor me avise!
