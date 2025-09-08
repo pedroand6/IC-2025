@@ -1,6 +1,6 @@
 Poeira:
 
-- Separada em componentes de emissão e absorção, sendo a emissão separada em duas componentes, uma de poeira quente (de nuvens moleculares, é da componente nebular, gerada por um código de fotoionização Cloudy) e outra de poeira fria e difusa (tratada abaixo).
+- Separada em componentes de emissão e absorção, sendo a emissão separada em duas componentes, uma de poeira quente e outra de poeira fria e difusa (de nuvens moleculares, é da componente nebular, gerada por um código de fotoionização Cloudy).
 - Transforma luz do azul/ultravioleta em infravermelho próximo
 - Modelos usam poeira com silicatos, grafite e PAH (hidrocarbonetos aromáticos policíclicos), um tipo de poeira orgânica que reemite e a luz por radiação térmica que depende do tamanho da partícula. Maiores -> menor comprimento de onda, mais quente.
 - A emissão de PAHs pequenos geralmente acontece por fóton único, então é independente da intensidade da luz estelar (U, relacionado com o parâmetro Umin do bagpipes), principalmente para U < 1000.
