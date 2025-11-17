@@ -1,0 +1,5 @@
+!	Use to handle file name of models with IMF populated stochastically
+	character*128 popprm,bpimf*7
+	logical wrimf,stpimf
+	integer isox
+	common /stochnamef/ popprm,isox,wrimf,stpimf,bpimf
